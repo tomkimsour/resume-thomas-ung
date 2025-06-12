@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.3": *
+#import "@preview/basic-resume:0.2.7": *
 
 // Put your personal information here, replacing mine
 #let name = "THOMAS UNG"
@@ -88,7 +88,7 @@ pad(
 )
 #skills(
   left-title: "Languages",
-  skill-list: "French (Native) - English (Fluent) - Mandarin (HSK2) - German (B1) - Spanish (A2)"
+  skill-list: "French (Native) - English (Fluent) - Mandarin (HSK2) - German (A2) - Spanish (A2)"
 )
 #skills(
   left-title: "Programming Languages",
@@ -120,7 +120,7 @@ pad(
   company: strong("PAL Robotics, Barcelona, Spain"),
   dates: dates-helper(start-date: "Mar 2024", end-date: "Now"),
 )
-- Software migration (#text(fill: rgb(accent-color))[ROS1/2, C++, Python, CMake, ament_cmake])
+- Software migration (#text(fill: rgb(accent-color))[ROS1/2, C++, Python, CMake])
 - Development of a fleet management system (#text(fill: rgb(accent-color))[Open-rmf, ROS2])
 - Networking optimisation for wireless distributed applications (#text(fill: rgb(accent-color))[DDS, Zenoh])
 - Package management (#text(fill: rgb(accent-color))[Debian, Gitlab, Docker])
@@ -145,7 +145,7 @@ management, make sure code guidelines are respected (#text(fill: rgb(accent-colo
   title: text(fill: rgb(accent-color))[Software engineer intern],
   location: "",
   company: strong("LAB-STICC, Locmaria-Plouzané, France"),
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  dates: dates-helper(start-date: "Feb 2022", end-date: "May 2022"),
 )
 - Depth camera calibration for pepper
 - Integration of a finite state machine as a scheduler for RoboCup tasks (6 months) (#text(fill: rgb(accent-color))[ROS, C++, Python])
@@ -182,4 +182,4 @@ management, make sure code guidelines are respected (#text(fill: rgb(accent-colo
 - Li, L., Neau, M., Ung, T., Buche, C. (2024). Crossing Real and Virtual: Pepper Robot as an Interactive Digital Twin. In: Buche, C., Rossi, A., Simões, M., Visser, U. (eds) RoboCup 2023: Robot World Cup XXVI. RoboCup 2023. Lecture Notes in Computer Science(), vol 14140. Springer, Cham. https://doi.org/10.1007/978-3-031-55015-7_23
 
 == References
-- Cédric BUCHE, Professeur des Universités, buche#sym.at\enib.fr, +61483343787
+- Cédric BUCHE, Professor, buche#sym.at\enib.fr, +61483343787
