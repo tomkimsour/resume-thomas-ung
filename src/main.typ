@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.7": *
+#import "@preview/basic-resume:0.2.9": *
 
 // Put your personal information here, replacing mine
 #let name = "THOMAS UNG"
@@ -124,8 +124,8 @@ pad(
 - Development of a fleet management system (#text(fill: rgb(accent-color))[Open-rmf, ROS2])
 - Networking optimisation for wireless distributed applications (#text(fill: rgb(accent-color))[DDS, Zenoh])
 - Package management (#text(fill: rgb(accent-color))[Debian, Gitlab, Docker])
-- Redesign of a RFID tag inventory project.
-- Build digital twin environment (#text(fill: rgb(accent-color))[Gazebo])
+- Redesign of a mission infrastructure for an intralogistic project.
+- Google summer of code mentor for a RL training visualizer (#text(fill: rgb(accent-color))[Mujoco, Brax])
 
 #work(
   title: text(fill: rgb(accent-color))[Research Software Engineer in Robotics],
