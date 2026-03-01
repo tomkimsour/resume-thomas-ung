@@ -16,11 +16,23 @@ To build you can run
 just build
 ```
 
+To build a specific language:
+```bash
+just build-en
+just build-fr
+```
+
 ## How to develop
 
 To develop you can use typst watch tool by running
 ```
 just watch
+```
+
+Or watch a specific language:
+```
+just watch-en
+just watch-fr
 ```
 ```
 ```
