@@ -99,8 +99,8 @@ pad(
 )
 
 #let languages_list = (
-  en: "French (Native) - English (Fluent) - Mandarin (HSK2) - German (A2) - Spanish (A2)",
-  fr: "Francais (natif) - Anglais (courant) - Mandarin (HSK2) - Allemand (A2) - Espagnol (A2)",
+  en: "French (Native) - English (Fluent) - Mandarin (HSK2) - German (A2) - Spanish (A2) - Japanese (JLPT N5)",
+  fr: "Francais (natif) - Anglais (courant) - Mandarin (HSK2) - Allemand (A2) - Espagnol (A2) - Japonais (JLPT N5)",
 )
 
 #let database_list = (
@@ -189,7 +189,7 @@ pad(
     ),
     bullets: (
       en: (
-        [Technical Leader - Manager for 6 FTE / 1 year, project management for the Robocup#sym.at\\Home competition, task management, make sure code guidelines are respected (#text(fill: rgb(accent-color))[Git, Github, Discord])],
+        [Technical Leader - Manager for 6 FTE / 1 year, project management for the Robocup#sym.at\Home competition, task management, make sure code guidelines are respected (#text(fill: rgb(accent-color))[Git, Github, Discord])],
         [Code refactor, create and maintain an OS (#text(fill: rgb(accent-color))[Gentoo Linux, Docker, C++, ROS, Python, SQLite])],
         [Development of a digital twin environment in Unreal Engine (#text(fill: rgb(accent-color))[Unreal Engine 5, ROS, C++, Clang, CMake])],
         [Research of onboard Visual SLAM solutions for Pepper robot (#text(fill: rgb(accent-color))[ROS, C++])],
@@ -197,7 +197,7 @@ pad(
         [Design of a web interface and research of an embedded easy to use and deploy framework for Pepper Tablet],
       ),
       fr: (
-        [Leader technique - Manager de 6 ETP / 1 an, gestion de projet pour la competition RoboCup#sym.at\\Home, suivi des taches, respect des guidelines (#text(fill: rgb(accent-color))[Git, Github, Discord])],
+        [Leader technique - Manager de 6 ETP / 1 an, gestion de projet pour la competition RoboCup#sym.at\Home, suivi des taches, respect des guidelines (#text(fill: rgb(accent-color))[Git, Github, Discord])],
         [Refactorisation, creation et maintenance d'un OS (#text(fill: rgb(accent-color))[Gentoo Linux, Docker, C++, ROS, Python, SQLite])],
         [Developpement d'un environnement jumeau numerique sous Unreal Engine (#text(fill: rgb(accent-color))[Unreal Engine 5, ROS, C++, Clang, CMake])],
         [Recherche de solutions Visual SLAM embarquees pour le robot Pepper (#text(fill: rgb(accent-color))[ROS, C++])],
@@ -223,14 +223,14 @@ pad(
         [Integration of a finite state machine as a scheduler for RoboCup tasks (6 months) (#text(fill: rgb(accent-color))[ROS, C++, Python])],
         [Research and integration on a stable onboard navigation solution for the robot Pepper],
         [Participation to RoboCup 2022 Bangkok with the team RoboBreizh (#text(fill: rgb(accent-color))[1rst place SSPL])],
-        [Research and implementation of a navigation module for Pepper robot as part of the RoboCup#sym.at\\Home competition (#text(fill: rgb(accent-color))[Gazebo, ROS])],
+        [Research and implementation of a navigation module for Pepper robot as part of the RoboCup#sym.at\Home competition (#text(fill: rgb(accent-color))[Gazebo, ROS])],
       ),
       fr: (
         [Calibration de camera de profondeur pour Pepper],
         [Integration d'une machine a etats finie comme ordonnanceur de taches RoboCup (6 mois) (#text(fill: rgb(accent-color))[ROS, C++, Python])],
         [Recherche et integration d'une solution de navigation embarquee stable pour le robot Pepper],
         [Participation a RoboCup 2022 Bangkok avec l'equipe RoboBreizh (#text(fill: rgb(accent-color))[1rst place SSPL])],
-        [Recherche et developpement d'un module de navigation pour Pepper pour la competition RoboCup#sym.at\\Home (#text(fill: rgb(accent-color))[Gazebo, ROS])],
+        [Recherche et developpement d'un module de navigation pour Pepper pour la competition RoboCup#sym.at\Home (#text(fill: rgb(accent-color))[Gazebo, ROS])],
       ),
     ),
   ),
@@ -252,14 +252,14 @@ pad(
 
 #let projects_list = (
   en: (
-    [1rst place in the Robocup#sym.at\\Home SSPL in 2022 and 2023],
+    [1rst place in the Robocup#sym.at\Home SSPL in 2022 and 2023],
     [Video converter API (#text(fill: rgb(accent-color))[GCP, Kubernetes, Next.js, Flask, Prometheus])],
     [Othello min max AI (#text(fill: rgb(accent-color))[Go])],
     [Time zone converter (#text(fill: rgb(accent-color))[Rust])],
     [Advent of code (#text(fill: rgb(accent-color))[Rust])],
   ),
   fr: (
-    [1er prix RoboCup#sym.at\\Home SSPL en 2022 et 2023],
+    [1er prix RoboCup#sym.at\Home SSPL en 2022 et 2023],
     [API de conversion video (#text(fill: rgb(accent-color))[GCP, Kubernetes, Next.js, Flask, Prometheus])],
     [IA Othello min-max (#text(fill: rgb(accent-color))[Go])],
     [Convertisseur de fuseaux horaires (#text(fill: rgb(accent-color))[Rust])],
