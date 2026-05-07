@@ -12,7 +12,7 @@
 #let email = "thomas.ung.pro@gmail.com"
 #let github = "github.com/tomkimsour"
 #let linkedin = "linkedin.com/in/thomas-ung"
-#let personal-site = "thomas-ung.fr"
+#let personal-site = "www.thomas-ung.fr"
 #let accent-color= "#8c52ff";
 #let font ="PP Pangram Sans";
 
