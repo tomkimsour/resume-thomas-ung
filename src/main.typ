@@ -34,6 +34,8 @@
 #show heading: set text(
   fill: rgb("#000000"),
 )
+#show list: it => pad(right: 4em, it)
+#show "C++": box
 // Redefine dates-helper to add some colors
 #let dates-helper(
   start-date: "",
@@ -94,8 +96,8 @@ pad(
 == #tr("about_me")
 
 #let qualities_list = (
-  en: "Curious - Ambitious - Fast learner - Takes initiatives - Communicate a lot ",
-  fr: "Curieux - Ambitieux - Apprentissage rapide - Prend des initiatives - Communique beaucoup",
+  en: "Curious - Ambitious - Fast learner - Takes initiatives - Versatile across the stack",
+  fr: "Curieux - Ambitieux - Apprentissage rapide - Prend des initiatives - Polyvalent",
 )
 
 #let languages_list = (
@@ -159,20 +161,24 @@ pad(
     ),
     bullets: (
       en: (
-        [Software migration (#text(fill: rgb(accent-color))[ROS1/2, C++, Python, CMake])],
-        [Development of a fleet management system (#text(fill: rgb(accent-color))[Open-rmf, ROS2])],
-        [Networking optimisation for wireless distributed applications (#text(fill: rgb(accent-color))[DDS, Zenoh])],
-        [Package management (#text(fill: rgb(accent-color))[Debian, Gitlab, Docker])],
-        [Redesign of a mission infrastructure for an intralogistic project.],
-        [Google summer of code mentor for a RL training visualizer (#text(fill: rgb(accent-color))[Mujoco, Brax])],
+        [Built an RFID inventory system end to end, from the LLRP reader driver through data processing to its web API (#text(fill: rgb(accent-color))[C++, Python, ROS 2])],
+        [Developed warehouse map and route-graph generation tooling, partly ported to Rust, and a map editor with a web front end (#text(fill: rgb(accent-color))[C++, Rust, TypeScript, Vue])],
+        [Redesigned the mission infrastructure of an intralogistics product, from job execution and charging to scheduling and replay (#text(fill: rgb(accent-color))[C++, ROS 2])],
+        [Developed a fleet management system for multi-robot coordination (#text(fill: rgb(accent-color))[Open-RMF, ROS 2])],
+        [Optimised networking for wireless multi-robot deployments (#text(fill: rgb(accent-color))[DDS, Zenoh, WireGuard, netplan, NTP])],
+        [Packaged the company's ROS 2 software with Nix and contributed to its distribution CI pipeline (#text(fill: rgb(accent-color))[Nix, GitLab CI, Debian, Docker])],
+        [Migrated robot software from ROS 1 to ROS 2 (#text(fill: rgb(accent-color))[C++, Python, CMake])],
+        [Mentored a Google Summer of Code project building an RL training visualizer (#text(fill: rgb(accent-color))[MuJoCo, Brax])],
       ),
       fr: (
-        [Migration logicielle (#text(fill: rgb(accent-color))[ROS1/2, C++, Python, CMake])],
-        [Developpement d'un systeme de gestion de flotte (#text(fill: rgb(accent-color))[Open-rmf, ROS2])],
-        [Optimisation reseau pour des applications distribuees sans fil (#text(fill: rgb(accent-color))[DDS, Zenoh])],
-        [Gestion de paquets (#text(fill: rgb(accent-color))[Debian, Gitlab, Docker])],
-        [Refonte d'une infrastructure de missions pour un projet intralogistique.],
-        [Mentor Google Summer of Code sur un visualiseur d'entrainement RL (#text(fill: rgb(accent-color))[Mujoco, Brax])],
+        [Conception de bout en bout d'un systeme d'inventaire RFID, du driver de lecteur LLRP au traitement des donnees et a son API web (#text(fill: rgb(accent-color))[C++, Python, ROS 2])],
+        [Developpement d'outils de generation de cartes d'entrepot et de graphes de routes, en partie portes en Rust, et d'un editeur de cartes avec interface web (#text(fill: rgb(accent-color))[C++, Rust, TypeScript, Vue])],
+        [Refonte de l'infrastructure de missions d'un produit intralogistique, de l'execution des taches et de la recharge a la planification et au rejeu (#text(fill: rgb(accent-color))[C++, ROS 2])],
+        [Developpement d'un systeme de gestion de flotte pour la coordination multi-robots (#text(fill: rgb(accent-color))[Open-RMF, ROS 2])],
+        [Optimisation reseau pour des deploiements multi-robots sans fil (#text(fill: rgb(accent-color))[DDS, Zenoh, WireGuard, netplan, NTP])],
+        [Packaging Nix des logiciels ROS 2 de l'entreprise et contribution a son pipeline CI de distribution (#text(fill: rgb(accent-color))[Nix, GitLab CI, Debian, Docker])],
+        [Migration de logiciels robotiques de ROS 1 vers ROS 2 (#text(fill: rgb(accent-color))[C++, Python, CMake])],
+        [Mentor Google Summer of Code sur un visualiseur d'entrainement RL (#text(fill: rgb(accent-color))[MuJoCo, Brax])],
       ),
     ),
   ),
